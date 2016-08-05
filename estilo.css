@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#principal {
+	position: absolute;
+	width: 900px;
+	height: 1000px;
+	z-index: 1;
+	left: 50%;
+	top: 10px;
+	margin-left:-450px;
+	border-radius:10px;
+}
+#cabecera {
+	position: absolute;
+	width: 900px;
+	height: 175px;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	background-image:url(img/gato.jpg);
+	border-radius:10px;
+}
+#menu {
+	position: absolute;
+	width: 900px;
+	height: 135px;
+	z-index: 2;
+	left: 0px;
+	top: 175px;
+	background-image:url(img/imagesent.jpg);
+	border-radius:10px;
+}
+#cuerpo {
+	position: absolute;
+	width: 900px;
+	height: 700px;
+	z-index: 3;
+	left: 0px;
+	top: 300px;
+	background-image:url(img/images.jpg);
+	border-radius:10px;
+}
+#pie {
+	position: absolute;
+	width: 900px;
+	height: 50px;
+	z-index: 4;
+	left: 0px;
+	top: 950px;
+	background-color:#693;
+	border-radius:10px;
+}
+#cerrar {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	z-index: 1;
+	left: 800px;
+	top: 180px;
+	background-color:#360;
+	border-radius:10px;
+}
+
+
